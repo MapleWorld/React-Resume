@@ -1,0 +1,11 @@
+.inline {
+    display: inline-flex;
+}
+
+.small-image-size {
+    max-height: 250px;
+}
+
+.medium-image-size {
+    max-height: 350px;
+}

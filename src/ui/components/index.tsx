@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Header from '../containers/header';
 import About from '../containers/about';
 import Skills from '../containers/skills';
 import Projects from '../containers/projects';
@@ -37,6 +38,7 @@ export default class Home extends React.Component < Props > {
                     </div>
                 </div>
                 */}
+                <Header/>
                 <div className="container-fluid">
                     <div className="row main clearfix">
                         <section className="col-md-2 card-wrapper affix">

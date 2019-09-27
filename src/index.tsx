@@ -25,12 +25,12 @@ ReactDOM.render(
             <script type="text/javascript" src="./js/jquery.js"/>
             <script type="text/javascript" src="./js/tooltip.js"/>
             <script type="text/javascript" src="./js/three.min.js"/>
-
+            
             <link href="./css/main.css" rel="stylesheet" type="text/css" />
-            {/*
             <link href="./css/custom.css" rel="stylesheet" type="text/css" />
             <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" rel="stylesheet" type="text/css" />
-            */}
+            
+            {/* Empty */}
         </div>
         <Home/>
     </Provider>,

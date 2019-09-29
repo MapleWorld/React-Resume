@@ -38,7 +38,6 @@ ReactDOM.render(
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
             <script type="text/javascript" src="./js/utils.js"></script>
             <script type="text/javascript" src="./js/motion.js"></script>
-            <script type="text/javascript" src="./js/bootstrap.js"></script>
 
             {/* Empty */}
         </div>
@@ -46,3 +45,23 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root') as HTMLElement
 );
+
+declare global {
+    interface Window {
+        NexT: any;
+    }
+}
+
+var NexT = window.NexT || {};
+var CONFIG = {
+    scheme: 'Mist',
+    sidebar: { "position": "left", "display": "post" },
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+        userId: 10766069,
+        author: '博主'
+    }
+};
+
+console.log(window.NexT);

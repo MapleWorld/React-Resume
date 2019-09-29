@@ -27,19 +27,6 @@ export default class Home extends React.Component < Props > {
             throw new Error('You could be a little more enthusiastic. :D');
         }
 
-        //var NexT = window.NexT || {};
-
-        var CONFIG = {
-            scheme: 'Mist',
-            sidebar: { "position": "left", "display": "post" },
-            fancybox: true,
-            motion: false,
-            duoshuo: {
-                userId: 10766069,
-                author: '博主'
-            }
-        };
-
         return (
             <div>
                 {/*

@@ -6,6 +6,7 @@ import Projects from '../containers/projects';
 import ProfileCard from '../containers/profileCard';
 import WorkExperience from '../containers/workExperience';
 import Others from '../containers/others';
+import SidebarProfile from '../containers/sidebarProfile';
 import Footer from '../containers/footer';
 
 export interface Props {
@@ -25,6 +26,20 @@ export default class Home extends React.Component < Props > {
         if (this.props.enthusiasmLevel <= 0) {
             throw new Error('You could be a little more enthusiastic. :D');
         }
+
+        //var NexT = window.NexT || {};
+
+        var CONFIG = {
+            scheme: 'Mist',
+            sidebar: { "position": "left", "display": "post" },
+            fancybox: true,
+            motion: false,
+            duoshuo: {
+                userId: 10766069,
+                author: '博主'
+            }
+        };
+
         return (
             <div>
                 {/*
@@ -58,6 +73,7 @@ export default class Home extends React.Component < Props > {
                             </div>
                         </section>
                     </div>
+                    <SidebarProfile/>
                 </div>
                 <Footer/>
             </div>

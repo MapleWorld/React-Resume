@@ -1863,9 +1863,9 @@ pre .javascript .function {
 .sidebarProfile-toggle {
     position: fixed;
     right: 50px;
-    bottom: 45px;
-    width: 15px;
-    height: 15px;
+    bottom: 75px;
+    width: 25px;
+    height: 25px;
     padding: 5px;
     background: #222;
     line-height: 0;

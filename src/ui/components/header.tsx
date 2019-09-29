@@ -27,7 +27,7 @@ export default class Header extends React.Component < null > {
                             <ul id="menu" className="menu">
                                 <li className="menu-item menu-item-tech">
                                     <a href="/tech" rel="section">
-                                        <i className="menu-item-icon fa fa-fw fa-battery-full"></i> <br />
+                                        <i className="menu-item-icon fa fa-fw fa-anchor"></i> <br />
                                         技术
                                     </a>
                                 </li>

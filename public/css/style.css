@@ -90,20 +90,6 @@ body {
     padding: 0 10px;
 }
 
-.info .content.has-sidebar {
-    width: 80%;
-    box-sizing: border-box;
-    float: left;
-    padding: 0 10px;
-    border-right: 1px solid #cdcdcd;
-}
-
-.info .sidebar {
-    margin-left: 80%;
-    box-sizing: border-box;
-    padding: 10px;
-}
-
 .profile-pic {
     padding: 20px 0;
 }
@@ -276,4 +262,31 @@ body {
     margin-left: 5px;
     width: 30px;
     height: 30px;
+}
+
+
+.inline {
+    display: inline-flex;
+}
+
+.small-image-size {
+    max-height: 250px;
+}
+
+.medium-image-size {
+    max-height: 350px;
+}
+
+.info .content.has-sidebar-date {
+    width: 80%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #cdcdcd;
+}
+
+.info .sidebar-date {
+    margin-left: 80%;
+    box-sizing: border-box;
+    padding: 10px;
 }

@@ -1,21 +1,24 @@
 import * as React from 'react';
 
-export default class SidebarProfile extends React.Component < null > {
+export default class Sidebar extends React.Component < null > {
+    onclick() {
+
+    }
 
     render() {
         return (
             <div className="detail">
-                <div className="sidebarProfile-toggle">
-                    <div className="sidebarProfile-toggle-line-wrap">
-                        <span className="sidebarProfile-toggle-line sidebarProfile-toggle-line-first"></span>
-                        <span className="sidebarProfile-toggle-line sidebarProfile-toggle-line-middle"></span>
-                        <span className="sidebarProfile-toggle-line sidebarProfile-toggle-line-last"></span>
+                <div className="sidebar-toggle">
+                    <div className="sidebar-toggle-line-wrap">
+                        <span className="sidebar-toggle-line sidebar-toggle-line-first"></span>
+                        <span className="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+                        <span className="sidebar-toggle-line sidebar-toggle-line-last"></span>
                     </div>
                 </div>
-                <aside id="sidebarProfile" className="sidebarProfile">
-                    <div className="sidebarProfile-overlay"></div>
-                    <div className="sidebarProfile-inner">
-                        <section className="site-overview sidebarProfile-panel  sidebarProfile-panel-active ">
+                <aside id="sidebar" className="sidebar">
+                    <div className="sidebar-overlay"></div>
+                    <div className="sidebar-inner">
+                        <section className="site-overview sidebar-panel  sidebar-panel-active ">
                             <div className="site-author motion-element">
                                 <img className="site-author-image" src="https://raw.githubusercontent.com/chocoluffy/blog_assets/master/me.jpg" alt="Ou Ye" />
                                 <p className="site-author-name">Ou Ye</p>

@@ -1807,7 +1807,7 @@ pre .javascript .function {
     }
 }
 
-.sidebarProfile {
+.sidebar {
     background: url("https://raw.githubusercontent.com/chocoluffy/blog_assets/master/side-column-background.jpg");
     background-size: cover;
     position: fixed;
@@ -1819,28 +1819,28 @@ pre .javascript .function {
     box-shadow: inset 0 2px 6px #000;
     -webkit-transform: translateZ(0);
 }
-.sidebarProfile a {
+.sidebar a {
     color: #999;
     border-bottom-color: #555;
 }
 
-.sidebarProfile a:hover {
+.sidebar a:hover {
     color: #eee;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .sidebarProfile {
+    .sidebar {
         display: none !important;
     }
 }
 
 @media (max-width: 767px) {
-    .sidebarProfile {
+    .sidebar {
         display: none !important;
     }
 }
 
-.sidebarProfile:before {
+.sidebar:before {
     pointer-events: none;
     content: "";
     display: block;
@@ -1852,7 +1852,7 @@ pre .javascript .function {
     background: linear-gradient(to left, rgba(0, 0, 0, 0), #222);
 }
 
-.sidebarProfile-inner {
+.sidebar-inner {
     z-index: 2000;
     position: relative;
     padding: 20px 10px;
@@ -1860,7 +1860,7 @@ pre .javascript .function {
     text-align: center;
 }
 
-.sidebarProfile-toggle {
+.sidebar-toggle {
     position: fixed;
     right: 50px;
     bottom: 75px;
@@ -1875,18 +1875,18 @@ pre .javascript .function {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .sidebarProfile-toggle {
+    .sidebar-toggle {
         display: none;
     }
 }
 
 @media (max-width: 767px) {
-    .sidebarProfile-toggle {
+    .sidebar-toggle {
         display: none;
     }
 }
 
-.sidebarProfile-toggle-line {
+.sidebar-toggle-line {
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -1896,7 +1896,7 @@ pre .javascript .function {
     margin-top: 3px;
 }
 
-.sidebarProfile-toggle-line:first-child {
+.sidebar-toggle-line:first-child {
     margin-top: 0;
 }
 
@@ -2026,12 +2026,12 @@ pre .javascript .function {
     padding: 2px 10px;
 }
 
-.sidebarProfile-nav {
+.sidebar-nav {
     margin: 0 0 20px;
     padding-left: 0;
 }
 
-.sidebarProfile-nav li {
+.sidebar-nav li {
     display: inline-block;
     cursor: pointer;
     border-bottom: 1px solid transparent;
@@ -2039,32 +2039,32 @@ pre .javascript .function {
     color: #555;
 }
 
-.sidebarProfile-nav li:hover {
+.sidebar-nav li:hover {
     color: #f5f5f5;
 }
 
-.page-post-detail .sidebarProfile-nav-toc {
+.page-post-detail .sidebar-nav-toc {
     padding: 0 5px;
 }
 
-.page-post-detail .sidebarProfile-nav-overview {
+.page-post-detail .sidebar-nav-overview {
     margin-left: 10px;
 }
 
-.sidebarProfile-nav .sidebarProfile-nav-active {
+.sidebar-nav .sidebar-nav-active {
     color: #87daff;
     border-bottom-color: #87daff;
 }
 
-.sidebarProfile-nav .sidebarProfile-nav-active:hover {
+.sidebar-nav .sidebar-nav-active:hover {
     color: #87daff;
 }
 
-.sidebarProfile-panel {
+.sidebar-panel {
     display: none;
 }
 
-.sidebarProfile-panel-active {
+.sidebar-panel-active {
     display: block;
 }
 
@@ -2683,7 +2683,7 @@ a.search-result {
     padding-left: 10px;
 }
 
-.page-post-detail .sidebarProfile-toggle-line {
+.page-post-detail .sidebar-toggle-line {
     background: #87daff;
 }
 

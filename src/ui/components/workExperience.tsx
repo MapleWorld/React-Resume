@@ -9,7 +9,7 @@ export default class WorkExperience extends React.Component < null > {
                     <h4 className="title text-uppercase">Work Experience</h4>
                     <ul className="list-unstyled">
                         <li className="card card-nested clearfix">
-                            <div className="content has-sidebar">
+                            <div className="content has-sidebar-date">
                                 <p><strong>Software Engineer</strong>,&nbsp;Thomson Reuters </p>
                                 <ul>
                                     <li> Full stack development on various Java, react, C#, .Net and node.js based web applications with e2e testing using docker, selenium and cucumber </li>
@@ -19,7 +19,7 @@ export default class WorkExperience extends React.Component < null > {
                                     <li> Development of high volume transaction cross-platform scalable RESTful API </li>
                                 </ul>
                             </div>
-                            <div className="sidebar text-muted text-center">
+                            <div className="sidebar-date text-muted text-center">
                                 <p><strong>Joined:</strong>&nbsp;Current</p>
                                 <p><strong>Left:</strong>&nbsp;January, 2018 </p>
                             </div>
@@ -27,7 +27,7 @@ export default class WorkExperience extends React.Component < null > {
                     </ul>
                     <ul className="list-unstyled">
                         <li className="card card-nested clearfix">
-                            <div className="content has-sidebar">
+                            <div className="content has-sidebar-date">
                                 <p><strong>Software Engineer Intern</strong>,&nbsp;Rakuten </p>
                                 <ul>
                                     <li> Design and implemented of an auto data generation server & website, to facilitate and streamline the process of data generation </li>
@@ -35,7 +35,7 @@ export default class WorkExperience extends React.Component < null > {
                                     <li> Continuous design and development of features and tools on internal products to improve the development process. </li>
                                 </ul>
                             </div>
-                            <div className="sidebar text-muted text-center">
+                            <div className="sidebar-date text-muted text-center">
                                 <p><strong>Joined:</strong>&nbsp;May, 2017</p>
                                 <p><strong>Left:</strong>&nbsp;August, 2017 </p>
                             </div>
@@ -43,7 +43,7 @@ export default class WorkExperience extends React.Component < null > {
                     </ul>
                     <ul className="list-unstyled">
                         <li className="card card-nested clearfix">
-                            <div className="content has-sidebar">
+                            <div className="content has-sidebar-date">
                                 <p><strong>Software Engineer Intern</strong>,&nbsp;Amazon </p>
                                 <ul>
                                     <li> Created a REST API and an interactivity web tool that can visualize the internal supply chain pipeline using Ruby, Angular, Java, JavaScript, and Hibernate </li>
@@ -51,7 +51,7 @@ export default class WorkExperience extends React.Component < null > {
                                     <li> Implementation of auto notification with the data analysis to inform the team about the status and health of the jobs and provide an overview of the pipeline system </li>
                                 </ul>
                             </div>
-                            <div className="sidebar text-muted text-center">
+                            <div className="sidebar-date text-muted text-center">
                                 <p><strong>Joined:</strong>&nbsp;June, 2016</p>
                                 <p><strong>Left:</strong>&nbsp;September, 2016 </p>
                             </div>
@@ -59,7 +59,7 @@ export default class WorkExperience extends React.Component < null > {
                     </ul>
                     <ul className="list-unstyled">
                         <li className="card card-nested clearfix">
-                            <div className="content has-sidebar">
+                            <div className="content has-sidebar-date">
                                 <p><strong>Software Engineer Intern</strong>,&nbsp;IBM </p>
                                 <ul>
                                     <li> Improved Auto SQL Generation Engine Scalability <b>(Now supports 750x more processes with clusters)</b></li>
@@ -83,7 +83,7 @@ export default class WorkExperience extends React.Component < null > {
                                 <a href="https://github.com/IBM-DTeam"> D-Team Open Source Github Repository</a>
                                 <br />
                             </div>
-                            <div className="sidebar text-muted text-center">
+                            <div className="sidebar-date text-muted text-center">
                                 <p><strong>Joined:</strong>&nbsp;May, 2015</p>
                                 <p><strong>Left:</strong>&nbsp;April, 2016 </p>
                             </div>

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom'
 
 export default class Header extends React.Component < null > {
     render() {
@@ -8,11 +9,11 @@ export default class Header extends React.Component < null > {
                     <div className="header-inner">
                         <div className="site-meta ">
                             <div className="custom-logo-site-title">
-                                <a href="/" className="brand" rel="start">
+                                <Link to="/" className="brand" rel="start">
                                     <span className="logo-line-before"><i></i></span>
                                     <span className="site-title">Ou Ye的 One Piece</span>
                                     <span className="logo-line-after"><i></i></span>
-                                </a>
+                                </Link>
                             </div>
                             <p className="site-subtitle"></p>
                         </div>
@@ -26,10 +27,10 @@ export default class Header extends React.Component < null > {
                         <nav className="site-nav">
                             <ul id="menu" className="menu">
                                 <li className="menu-item menu-item-tech">
-                                    <a href="/tech" rel="section">
+                                    <Link to="/machineLearning" rel="section">
                                         <i className="menu-item-icon fa fa-fw fa-anchor"></i> <br />
-                                        技术
-                                    </a>
+                                        Machine Learning
+                                    </Link>
                                 </li>
                                 <li className="menu-item menu-item-life">
                                     <a href="/life" rel="section">
@@ -38,9 +39,9 @@ export default class Header extends React.Component < null > {
                                     </a>
                                 </li>
                                 <li className="menu-item menu-item-books">
-                                    <a href="/books" rel="section">
+                                    <a href="./resume_ou_ye_software_engineer.pdf" rel="section">
                                         <i className="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
-                                        书房
+                                        Resume PDF
                                     </a>
                                 </li>
                             </ul>

@@ -27,7 +27,7 @@ export default class ProfileCard extends React.Component < null > {
                             <i className="fa fa-lg fa-phone"></i>
                         </span>
                         <span className="info">
-                            (416) 829-6098
+                            (425) 410-9532
                         </span>
                     </div>
                     <div className="detail">
@@ -43,7 +43,7 @@ export default class ProfileCard extends React.Component < null > {
                             <i className="fa fa-lg fa-language"></i>
                         </span>
                         <span className="info">
-                            English & Mandarin & Basic Japanese
+                            English & Chinese & Basic Japanese
                         </span>
                     </div>
                 </div>

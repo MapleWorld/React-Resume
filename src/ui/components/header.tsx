@@ -27,16 +27,22 @@ export default class Header extends React.Component < null > {
                         <nav className="site-nav">
                             <ul id="menu" className="menu">
                                 <li className="menu-item menu-item-tech">
+                                    <Link to="/" rel="section">
+                                        <i className="menu-item-icon fa fa-fw fa-home"></i> <br />
+                                        Home
+                                    </Link>
+                                </li>
+                                <li className="menu-item menu-item-tech">
                                     <Link to="/machineLearning" rel="section">
                                         <i className="menu-item-icon fa fa-fw fa-anchor"></i> <br />
                                         Machine Learning
                                     </Link>
                                 </li>
                                 <li className="menu-item menu-item-life">
-                                    <a href="/life" rel="section">
+                                    <Link to="/" rel="section">
                                         <i className="menu-item-icon fa fa-fw fa-book"></i> <br />
-                                        随笔
-                                    </a>
+                                        Life
+                                    </Link>
                                 </li>
                                 <li className="menu-item menu-item-books">
                                     <a href="./resume_ou_ye_software_engineer.pdf" rel="section">

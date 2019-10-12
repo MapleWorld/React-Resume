@@ -14,7 +14,7 @@ import Footer from '../containers/footer';
 export default class Home extends React.Component < any > {
     render() {
         return (
-            <div>
+            <div className="fullPage">
                 <Header/>
                 <div className="container-fluid">
                     <div className="row main clearfix">

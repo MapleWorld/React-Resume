@@ -38,6 +38,11 @@ video {
     /* 2 */
 }
 
+.fullPage {
+    position: absolute;
+    width: 100%;
+}
+
 audio:not([controls]) {
     display: none;
     height: 0;

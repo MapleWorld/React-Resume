@@ -11,7 +11,7 @@ export default class Header extends React.Component < null > {
                             <div className="custom-logo-site-title">
                                 <Link to="/" className="brand" rel="start">
                                     <span className="logo-line-before"><i></i></span>
-                                    <span className="site-title">Ou Ye的 One Piece</span>
+                                    <span className="site-title">Ou Ye 的 One Piece</span>
                                     <span className="logo-line-after"><i></i></span>
                                 </Link>
                             </div>
@@ -38,15 +38,9 @@ export default class Header extends React.Component < null > {
                                         Machine Learning
                                     </Link>
                                 </li>
-                                <li className="menu-item menu-item-life">
-                                    <Link to="/" rel="section">
-                                        <i className="menu-item-icon fa fa-fw fa-book"></i> <br />
-                                        Life
-                                    </Link>
-                                </li>
                                 <li className="menu-item menu-item-books">
                                     <a href="./resume_ou_ye_software_engineer.pdf" rel="section">
-                                        <i className="menu-item-icon fa fa-fw fa-bookmark"></i> <br />
+                                        <i className="menu-item-icon fa fa-fw fa-user-circle"></i> <br />
                                         Resume PDF
                                     </a>
                                 </li>

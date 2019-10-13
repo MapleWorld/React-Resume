@@ -7,6 +7,22 @@ export default class WorkExperience extends React.Component < null > {
                 <div className="icon"><i className="fa fa-lg fa-building"></i></div>
                 <div className="info">
                     <h4 className="title text-uppercase">Work Experience</h4>
+
+                    <ul className="list-unstyled">
+                        <li className="card card-nested clearfix">
+                            <div className="content has-sidebar-date">
+                                <p><strong>Software Engineer</strong>,&nbsp;Microsoft </p>
+                                <ul>
+                                    <li> Yoloing </li>
+
+                                </ul>
+                            </div>
+                            <div className="sidebar-date text-muted text-center">
+                                <p><strong>Joined:</strong>&nbsp;August 2019</p>
+                            </div>
+                        </li>
+                    </ul>
+
                     <ul className="list-unstyled">
                         <li className="card card-nested clearfix">
                             <div className="content has-sidebar-date">
@@ -20,8 +36,8 @@ export default class WorkExperience extends React.Component < null > {
                                 </ul>
                             </div>
                             <div className="sidebar-date text-muted text-center">
-                                <p><strong>Joined:</strong>&nbsp;Current</p>
-                                <p><strong>Left:</strong>&nbsp;January, 2018 </p>
+                                <p><strong>Joined:</strong>&nbsp;January, 2018</p>
+                                <p><strong>Left:</strong>&nbsp;August, 2019 </p>
                             </div>
                         </li>
                     </ul>

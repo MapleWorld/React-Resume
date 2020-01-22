@@ -44,6 +44,12 @@ export default class Header extends React.Component < null > {
                                         Resume PDF
                                     </a>
                                 </li>
+                                <li className="menu-item menu-item-books">
+                                    <a href="./200days.html" rel="section">
+                                        <i className="menu-item-icon fa fa-fw fa-user-circle"></i> <br />
+                                        Threejs
+                                    </a>
+                                </li>
                             </ul>
                             <div className="site-search">
                                 <div className="popup">

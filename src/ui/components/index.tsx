@@ -8,7 +8,6 @@ import ProfileCard from '../containers/profileCard';
 import WorkExperience from '../containers/workExperience';
 import Others from '../containers/others';
 import MachineLearning from '../containers/machineLearning';
-import Sidebar from '../containers/sidebar';
 import Footer from '../containers/footer';
 
 export default class Home extends React.Component < any > {
@@ -22,7 +21,6 @@ export default class Home extends React.Component < any > {
                         <Route exact path="/machineLearning" component={MachineLearningPage} />
                     </div>
                 </div>
-                <Sidebar/>
                 <Footer/>
             </div>
         );

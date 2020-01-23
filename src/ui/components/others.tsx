@@ -59,7 +59,7 @@ export default class About extends React.Component < null > {
                                 <li className="card card-nested">
                                     <div className="space-top labels">
                                         <span className="label label-keyword">Piano</span>
-                                        <span className="label label-keyword">Guitar</span>
+                                        <span className="label label-keyword">Guitar </span>
                                         <span className="label label-keyword">Violin</span>
                                         <span className="label label-keyword">Traveling</span>
                                         <span className="label label-keyword">Wild Life</span>
@@ -88,11 +88,10 @@ export default class About extends React.Component < null > {
                             <ul className="list-unstyled">
                                 <li className="card card-nested">
                                     <div className="content">
-                                        <p className="clear-margin">Love challenges and adventures! Life is too short to waste</p>
+                                        <p className="clear-margin">Love challenges and 🚅🏯🌌⛩️🛳️🚀🗺️🧳🚤 ! Life is too short to waste</p>
                                         <p className="clear-margin">Love open source, who doesn't like free stuff</p>
-                                        <p className="clear-margin">Love animal, want to adopt one when I can afford it</p>
-                                        <p className="clear-margin">Love music, took 6-7 years of violin classes</p>
-                                        <p className="clear-margin">Self taught piano, guitar, photography, and life in general (When you love it, you gotta do it)</p>
+                                        <p className="clear-margin">Love 🎼, and can play 🎹🎻🎸 </p>
+                                        <p className="clear-margin">Love 📷, enjoy taking photo of both landscape and portrait</p>
                                     </div>
                                 </li>
                             </ul>

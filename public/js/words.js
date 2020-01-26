@@ -1,29 +1,30 @@
-export var words = [
-    "I", "", "4", 1, 1,
-    "L", "", "", 3, 1,
-    "o", "", "", 4, 1,
-    "v", "", "", 5, 1,
-    "e", "", "", 6, 1,
-    "Y", "", "", 8, 1,
-    "o", "", "", 9, 1,
-    "u", "", "", 10, 1,
-    "2", "", "", 1, 2,
-    "0", "", "", 2, 2,
-    "0", "", "", 3, 2,
-    "天", "", "", 4, 2,
-    "纪", "", "", 5, 2,
-    "念", "", "", 6, 2,
-    "日", "", "", 7, 2,
-    "我", "", "", 1, 3,
-    "家", "", "", 2, 3,
-    "宝", "", "", 3, 3,
-    "宝", "", "", 4, 3,
-    "最", "", "", 5, 3,
-    "棒", "", "", 6, 3,
-    "了", "", "", 7, 3,
-    "么", "", "", 1, 4,
-    "么", "", "", 2, 4,
-    "哒", "", "", 3, 4,
-    "嘿", "", "", 5, 4,
-    "咻", "", "", 6, 4
-];
+let startDate = new Date(2019, 0, 12);
+let currentDate = new Date();
+let diffMilliSeconds = currentDate.getTime() - startDate.getTime();
+let delta = diffMilliSeconds / 1000;
+let numDay = Math.floor(delta / 86400);
+delta -= numDay * 86400;
+let numHour = Math.floor(delta / 3600) % 24;
+delta -= numHour * 3600;
+let numMinute = Math.floor(delta / 60) % 60;
+delta -= numMinute * 60;
+let numSec = Math.floor(delta % 60); 
+
+let count = numDay + " " + numHour + ":" + numMinute + " " + numSec;
+
+let wordList = [];
+let row = 1;
+let col = 1;
+for (let char of count) {
+	if (char === " ") {
+		col++;
+		continue;
+	}
+	wordList.push(char);
+	wordList.push("");
+	wordList.push("");
+	wordList.push(col);
+	wordList.push(row);
+	col++;
+}
+export var words = wordList;

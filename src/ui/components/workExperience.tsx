@@ -13,8 +13,15 @@ export default class WorkExperience extends React.Component < null > {
                             <div className="content has-sidebar-date">
                                 <p><strong>Software Engineer</strong>,&nbsp;Microsoft </p>
                                 <ul>
-                                    <li> Yoloing </li>
-
+                                    <li>Part of the Windows Defender team, help developing and maintaining the large ecosystem 
+                                        thats protects billions of users around the world
+                                    </li>
+                                    <li>Building scalable, cloud-based, machine-learned reputation systems using 
+                                        Microsoft's proprietary machine learning language scripts (Cosmos) on security 
+                                    </li>
+                                    <li> Development and fine-tuning of Url, phishing, malware detection algorithm, as well as network protection data feed pipeline, all with CI/CD enabled through Azure DevOps  
+                                    </li>
+                                    <li>Still learning, lots of work invested into the ecosystem in the recent years, that made Windows Defender as the top antivirus</li>
                                 </ul>
                             </div>
                             <div className="sidebar-date text-muted text-center">
@@ -50,7 +57,7 @@ export default class WorkExperience extends React.Component < null > {
                                 <p><strong>Software Engineer Intern</strong>,&nbsp;Rakuten </p>
                                 <ul>
                                     <li> Design and implemented of an auto data generation server & website, to facilitate and streamline the process of data generation </li>
-                                    <li> Engineered the current testing system to join with the data generation, and automated the testing forthe internal credit card system </li>
+                                    <li> Engineered the current testing system joint with data generation, and automated the testing forthe internal credit card system </li>
                                     <li> Continuous design and development of features and tools on internal products to improve the development process. </li>
                                 </ul>
                             </div>
@@ -83,7 +90,6 @@ export default class WorkExperience extends React.Component < null > {
                             <div className="content has-sidebar-date">
                                 <p><strong>Software Engineer Intern</strong>,&nbsp;IBM </p>
                                 <ul>
-                                    <li> Improved Auto SQL Generation Engine Scalability <b>(Now supports 750x more processes with clusters)</b></li>
                                     <li> Design and re-developed web servers using
                                         <ul>
                                             <li><b> Node.js (Sockets, Async, ES6)</b></li>
@@ -92,6 +98,7 @@ export default class WorkExperience extends React.Component < null > {
                                             <li><b> C for SQG Engine itself</b></li>
                                         </ul>
                                     </li>
+                                    <li> Improved existing Auto SQL Generation Engine Scalability <b>(Now supports 750x more processes with clusters)</b></li>
                                     <li> Development of a cross platform web server using Java, Node.js, Cluster, DB2 & MongoDB for userto interact with SQL Query Generator </li>
                                     <li> Design and developed Database Tutorial Android Application to ease the difficulty of learning and getting DB2 certification</li>
                                     <li> Developed <b>Performance Analysis Tool</b> and <b>Client Software Analytics Platform </b> to collect and analysis data</li>

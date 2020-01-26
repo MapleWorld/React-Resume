@@ -8,13 +8,13 @@ export default class About extends React.Component < null > {
                     <div className="main-inner">
                         <div className="content-wrap">
                             <div id="content" className="content">
-                                <h1>CSC420: Introduction to Image Understanding</h1>
+                                <h1>Image Understanding</h1>
                                 <div id="posts" className="posts-expand">
                                     <h3>
                                         <a href="https://en.wikipedia.org/wiki/Canny_edge_detector" target="_blank">
                                             Canny Edge Detector
                                         </a> 
-                                        program to detect and identify edge in an image
+                                        &nbsp; Detect and identify edge in an image
                                     </h3>
                                     <ul>
                                         <li> Steps:</li>
@@ -33,7 +33,7 @@ export default class About extends React.Component < null > {
                                     <h3>
                                         <a href="https://en.wikipedia.org/wiki/Harris_Corner_Detector" target="_blank">
                                             Harris Corner Metric Detector
-                                        </a> function using the harmonic mean
+                                        </a>: Harmonic Mean
                                     </h3>
                                     
                                     <figure className="highlight js">

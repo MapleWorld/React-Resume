@@ -12,11 +12,11 @@ export default class About extends React.Component < null > {
                             <ul className="list-unstyled">
                                 <li className="card card-nested">
                                     <ul>
-                                        <li> Experience with <b>Full-Stack for Web, Mobile, and Java Development</b></li>
-                                        <li> Proficient in working with all Windows OS, some UNIX and Linux(Ubuntu)</li>
-                                        <li> Proficient working with Eclipse, Android Studio, Visual Studio, and Git</li>
-                                        <li> Knowledge of many software design and architecture, such as RESTful, TDD, Agile, Responsive Web Design, and MVC</li>
-                                        <li> Experience with using many hosting platform, such as AWS, Google, Bluemix, and Heroku</li>
+                                        <li> Experience with <b>Full-Stack development for Web apps, as well as backend development using Java and C#</b></li>
+                                        <li> Proficient in working with all Windows OS, Mac, some UNIX and Linux (Ubuntu)</li>
+                                        <li> Proficient working with tools like Visual Studio, IntelliJ IDEA, Eclipse, Android Studio, Visual Studio, and Git & workflow</li>
+                                        <li> Knowledge of many software design and architecture, such as RESTful, TDD, Agile, and MVC</li>
+                                        <li> Experience with using many hosting platform, such as AWS, Azure, Azure Devops, Google, Bluemix, GoDaddy, and Heroku</li>
                                         <li> Knowledge of various algorithm, such as "you name it" (Kidding, please don't pick any hard one for the interview)</li>
                                     </ul>
                                 </li>
@@ -88,7 +88,7 @@ export default class About extends React.Component < null > {
                             <ul className="list-unstyled">
                                 <li className="card card-nested">
                                     <div className="content">
-                                        <p className="clear-margin">Love challenges and 🚅🏯🌌⛩️🛳️🚀🗺️🧳🚤 ! Life is too short to waste</p>
+                                        <p className="clear-margin">Love challenges and 🚅🏯🌌⛩️🛳️🚀🗺️🧳🚤 !</p>
                                         <p className="clear-margin">Love open source, who doesn't like free stuff</p>
                                         <p className="clear-margin">Love 🎼, and can play 🎹🎻🎸 </p>
                                         <p className="clear-margin">Love 📷, enjoy taking photo of both landscape and portrait</p>

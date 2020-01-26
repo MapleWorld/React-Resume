@@ -5,7 +5,8 @@
     <title>200 Days With Ma BB Livia</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="./public/css/threes.css">
+    <link type="text/css" rel="stylesheet" href="./css/main.css">
+    <link type="text/css" rel="stylesheet" href="./css/table.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <button id="helix">HELIX</button>
         <button id="grid">GRID</button>
     </div>
-    <script src="./public/js/libs/tween.min.js"></script>
+    <script src="js/libs/tween.min.js"></script>
     <script type="x-shader/x-vertex" id="vertexShader">
         varying vec3 vWorldPosition;
             void main() {
@@ -38,23 +39,23 @@
     <script type="module">
         //http-server . -c-1 -p 8000
 
-            import * as THREE from './public/build/three.module.js';
-            import { GUI } from './public/jsm/libs/dat.gui.module.js';
-            import { OrbitControls } from './public/jsm/controls/OrbitControls.js';
-            import { TrackballControls } from './public/jsm/controls/TrackballControls.js';
-            import { HeartShapeMesh, CreateHeartShape } from './public/js/heart.js';
-            import { CreateWater } from './public/js/water.js';
-            import { CreateGround } from './public/js/ground.js';
-            import { CreateHemisphereLight } from './public/js/hemisphereLight.js';
-            import { CreateWebGLRenderer, CreateCss3DRenderer } from './public/js/renderer.js';
-            import { Water } from './public/jsm/objects/Water.js';
-            import { Sky } from './public/jsm/objects/Sky.js';
-            import { CSS3DRenderer, CSS3DObject } from './public/jsm/renderers/CSS3DRenderer.js';
-            import { words } from './public/js/words.js';
-            import { CreateTable, CreateTargetObject, CreateButtons } from './public/js/table.js';
-            import { RandomizeObjectPosition } from './public/js/utility.js';
-            import { CreateBird } from './public/js/bird.js';
-            import { LoadPictureObject } from './public/js/picture.js';
+            import * as THREE from './build/three.module.js';
+            import { GUI } from './jsm/libs/dat.gui.module.js';
+            import { OrbitControls } from './jsm/controls/OrbitControls.js';
+            import { TrackballControls } from './jsm/controls/TrackballControls.js';
+            import { HeartShapeMesh, CreateHeartShape } from './js/heart.js';
+            import { CreateWater } from './js/water.js';
+            import { CreateGround } from './js/ground.js';
+            import { CreateHemisphereLight } from './js/hemisphereLight.js';
+            import { CreateWebGLRenderer, CreateCss3DRenderer } from './js/renderer.js';
+            import { Water } from './jsm/objects/Water.js';
+            import { Sky } from './jsm/objects/Sky.js';
+            import { CSS3DRenderer, CSS3DObject } from './jsm/renderers/CSS3DRenderer.js';
+            import { words } from './js/words.js';
+            import { CreateTable, CreateTargetObject, CreateButtons } from './js/table.js';
+            import { RandomizeObjectPosition } from './js/utility.js';
+            import { CreateBird } from './js/bird.js';
+            import { LoadPictureObject } from './js/picture.js';
 
             const NUMBER_OF_BIRDS = 300;
             const NUMBER_OF_HEART = 100;

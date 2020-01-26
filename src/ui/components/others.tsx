@@ -12,7 +12,7 @@ export default class About extends React.Component < null > {
                             <ul className="list-unstyled">
                                 <li className="card card-nested">
                                     <ul>
-                                        <li> Experience with <b>Full-Stack development for Web apps, as well as backend development using Java and C#</b></li>
+                                        <li> Experience with Full-Stack development for Web apps, as well as backend development using Java and C#</li>
                                         <li> Proficient in working with all Windows OS, Mac, some UNIX and Linux (Ubuntu)</li>
                                         <li> Proficient working with tools like Visual Studio, IntelliJ IDEA, Eclipse, Android Studio, Visual Studio, and Git & workflow</li>
                                         <li> Knowledge of many software design and architecture, such as RESTful, TDD, Agile, and MVC</li>

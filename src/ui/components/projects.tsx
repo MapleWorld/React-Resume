@@ -42,9 +42,16 @@ export default class Projects extends React.Component < null > {
                                 <br />
                                 <p><strong>Personal Website</strong></p>
                                 <ul>
-                                    <li> <a href="http://www.ouye.photography"> www.ouye.photography</a> <strong> Photography Site (Broke had to take it down)</strong></li>
-                                    <li> Incorporated responsive web design and dynamic web page </li>
-                                    <li> No back-end though, hosted on GoDaddy since I can't afford virtual machine </li>
+                                    <li> 
+                                        <a href="https://www.ouye.ca">
+                                            www.ouye.ca
+                                        </a> &nbsp;
+                                        Leveraged Microsoft $150 monthly employee credit, server hosted on Azure, with CI/CD enabled through 
+                                        <a href="https://azure.microsoft.com/en-us/services/devops/">
+                                            &nbsp;Azure DevOps
+                                        </a>
+                                    </li>
+                                    <li> <a href="http://www.ouye.photography"> www.ouye.photography</a> <strong> Photography Site (No money had to take it down)</strong></li>
                                 </ul>
                             </div>
                         </li>

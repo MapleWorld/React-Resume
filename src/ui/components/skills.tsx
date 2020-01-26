@@ -19,6 +19,7 @@ export default class Skills extends React.Component < null > {
                                         <span className="label label-keyword">Java - Proficient</span>
                                         <span className="label label-keyword">Python - Good</span>
                                         <span className="label label-keyword">C - Fluent</span>
+                                        <span className="label label-keyword">C# - Getting better day by day</span>
                                     </div>
                                 </div>
                             </li>

@@ -19,8 +19,7 @@ export default class WorkExperience extends React.Component < null > {
                                     <li>Building scalable, cloud-based, machine-learned reputation systems using 
                                         Microsoft's proprietary machine learning language scripts (Cosmos) on security 
                                     </li>
-                                    <li> Development and fine-tuning of Url, phishing, malware detection algorithm, as well as network protection data feed pipeline, all with CI/CD enabled through Azure DevOps  
-                                    </li>
+                                    <li> Development and fine-tuning of Url, phishing, malware detection algorithm, as well as network protection data feed pipeline</li>
                                     <li>Still learning, lots of work invested into the ecosystem in the recent years, that made Windows Defender as the top antivirus</li>
                                 </ul>
                             </div>

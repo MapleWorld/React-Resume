@@ -40,6 +40,7 @@ export function CreateTargetObject(words) {
     targets.grid = createTargetGrid(words, targets);
     return targets;
 }
+
 function createTargetTable(words, targets) {
     let targetTable = [];
     for ( var i = 0; i < words.length; i += 5 ) {

@@ -46,11 +46,19 @@ export default class Projects extends React.Component < null > {
                                         <a href="https://www.ouye.ca">
                                             www.ouye.ca
                                         </a> &nbsp;
-                                        Leveraged Microsoft $150 monthly employee credit, server hosted on Azure, with CI/CD enabled through 
-                                        <a href="https://azure.microsoft.com/en-us/services/devops/">
-                                            &nbsp;Azure DevOps
-                                        </a>
+                                        <ul>
+                                            <li>Built on React and React & Redux</li>
+                                            
+                                            <li>
+                                                Leveraged Microsoft $150 monthly employee credit, server hosted on Azure, 
+                                                with CI/CD enabled through 
+                                                <a href="https://azure.microsoft.com/en-us/services/devops/">
+                                                    &nbsp;Azure DevOps
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
+                                    <li> <a href="https://www.ouye.ca/threejs.html"> www.ouye.ca/threejs.html</a> Built using Three.js for fun </li>
                                     <li> <a href="http://www.ouye.photography"> www.ouye.photography</a> <strong> Photography Site (No money had to take it down)</strong></li>
                                 </ul>
                             </div>

@@ -102,8 +102,11 @@ export default class WorkExperience extends React.Component < null > {
                                     <li> Design and developed Database Tutorial Android Application to ease the difficulty of learning and getting DB2 certification</li>
                                     <li> Developed <b>Performance Analysis Tool</b> and <b>Client Software Analytics Platform </b> to collect and analysis data</li>
                                     <li>
-                                        Produced educational <b>Youtube and internal video</b> on new IBM products to promote and increase adoption of IBM products
-                                        <a href="https://www.youtube.com/watch?v=Q862P1ZA_Iw&index=7&list=PLdCTCL7DbgsnnYl9YLINarptciOxgF6r1">Youtube Video Playlist</a>
+                                        Produced educational <b>Youtube and internal video</b> on new IBM products to promote and increase adoption of IBM products &nbsp; 
+                                        <a href="https://www.youtube.com/watch?v=Q862P1ZA_Iw&index=7&list=PLdCTCL7DbgsnnYl9YLINarptciOxgF6r1">
+                                            Youtube Video Playlist &nbsp; 
+                                            <i className="menu-item-icon fa fa-fw fa-youtube-play"/>
+                                         </a>
                                     </li>
                                 </ul>
                                 <br />

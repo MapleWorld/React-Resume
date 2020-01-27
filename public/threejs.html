@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>200 Days With Ma BB Livia</title>
+    <title>Time Tracking</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link type="text/css" rel="stylesheet" href="./css/main.css">
@@ -114,16 +114,11 @@
                 CreateBird(webGLScene, mixers);
 
                 // Image
-                let coverPhoto = LoadPictureObject('pics/cover.jpg');
+                let coverPhoto = LoadPictureObject('img/cover.jpg');
                 coverPhoto.position.x = 8000;
                 coverPhoto.position.y = 5000;
                 coverPhoto.position.z = -25000;
-                let showerPhoto = LoadPictureObject('pics/shower.jpg');
-                showerPhoto.position.x = 17500;
-                showerPhoto.position.y = 5000;
-                showerPhoto.position.z = -25000;
                 webGLScene.add(coverPhoto);  
-                webGLScene.add(showerPhoto);  
 
                 // Table & Words
                 objects = CreateTable(words);

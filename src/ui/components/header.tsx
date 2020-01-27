@@ -1,7 +1,24 @@
+import $ from 'jquery';
 import * as React from 'react';
 import { Link } from 'react-router-dom'
 
 export default class Header extends React.Component < null > {
+
+    toggleNavigation() {
+        let $siteNav = $('.site-nav');
+        let ON_CLASS_NAME = 'site-nav-on';
+        let isSiteNavOn = $siteNav.hasClass(ON_CLASS_NAME);
+        let animateAction: keyof typeof $siteNav = isSiteNavOn ? 'slideUp' : 'slideDown';
+        let animateCallback = isSiteNavOn ? 'removeClass' : 'addClass';
+        $siteNav.stop()[animateAction]('fast', () => {
+            if (animateCallback == 'removeClass') {
+                $siteNav.removeClass(ON_CLASS_NAME);
+            } else {
+                $siteNav.addClass(ON_CLASS_NAME);
+            }
+        });
+    }
+
     render() {
         return (
             <div className="detail">
@@ -11,24 +28,24 @@ export default class Header extends React.Component < null > {
                             <div className="custom-logo-site-title">
                                 <Link to="/" className="brand" rel="start">
                                     <span className="logo-line-before"><i></i></span>
-                                    <span className="site-title">Ou Ye 的 One Piece</span>
+                                    <span className="site-title">Ou 的 One Piece</span>
                                     <span className="logo-line-after"><i></i></span>
                                 </Link>
                             </div>
                             <p className="site-subtitle"></p>
                         </div>
-                        <div className="site-nav-toggle">
-                            <button>
+                        <div className="site-nav-toggle" id="nav-toggle">
+                            <button onClick={this.toggleNavigation}>
                                 <span className="btn-bar"></span>
                                 <span className="btn-bar"></span>
                                 <span className="btn-bar"></span>
                             </button>
                         </div>
-                        <nav className="site-nav">
+                        <nav className="site-nav" >
                             <ul id="menu" className="menu">
                                 <li className="menu-item menu-item-tech">
                                     <Link to="/" rel="section">
-                                        <i className="menu-item-icon fa fa-fw fa-home"></i> <br />
+                                        <i className="menu-item-icon fa fa-fw fa-home active"></i> <br />
                                         Home
                                     </Link>
                                 </li>
@@ -51,14 +68,6 @@ export default class Header extends React.Component < null > {
                                     </a>
                                 </li>
                             </ul>
-                            <div className="site-search">
-                                <div className="popup">
-                                    <span className="search-icon fa fa-search"></span>
-                                    <input type="text" id="local-search-input"/>
-                                    <div id="local-search-result"></div>
-                                    <span className="popup-btn-close">close</span>
-                                </div>
-                            </div>
                         </nav>
                     </div>
                 </header>

@@ -26,7 +26,6 @@ export default class WorkExperience extends React.Component < null > {
                             <div className="sidebar-date text-muted text-center">
                                 <p><strong>Joined:</strong>&nbsp;August 2019</p>
                                 <p><strong>Location:</strong>&nbsp;US, Seattle 🌧️ </p>
-
                             </div>
                         </li>
                     </ul>

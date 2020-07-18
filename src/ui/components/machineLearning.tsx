@@ -55,7 +55,11 @@ export default class About extends React.Component < null > {
                                     </div>
                                     <ul>
                                         <li>Custom non-maximal suppression using ordfilt2.m or your own morphological operators function of choice.
-                                            Use a circularelement, and experiment with varying radius as a parameter. Explain why/how the results change with radius.
+                                            Use a circularelement, and experiment with varying radius as a parameter. 
+                                        </li>
+                                        <li>Explain why/how the results change with radius.
+                                        </li>
+                                        <li>
                                             As the radius increase for the non maximum suppression filter, the size of the dot also gets bigger, because
                                             more neighboring values are being changed to its local maximum by ordfilt2, as it reset the current value
                                             to the largest neighbor value, result in all neighbor values within the radius to exceed the threshold when
@@ -86,6 +90,76 @@ export default class About extends React.Component < null > {
                                             <img className="small-photo" src="./img/csc420/A2/1d3.jpg"/>
                                         </div>
                                     </ul>
+                                </div>
+                            </div>
+
+                            <div id="content" className="content">
+                                <h1>Data analyze</h1>
+                                <div id="posts" className="posts-expand">
+                                    <h3>
+                                        <a href="https://en.wikipedia.org/wiki/Mental_chronometry" target="_blank">
+                                            Human Reaction time VS Mental Rotation
+                                        </a> 
+                                    </h3>
+                                    <ul>
+                                        <li>Analyze the relationship between subjects' reaction times (dependent variable) 
+                                            and angles (independent variable) both within subjects and across subjects 
+                                        </li>
+                                        <li>54 subjects performed a mental rotation task similar to Shepard & Metzler (1971):
+                                             multiple pairs of 3D objects were presented at four different rotating angles. 
+                                             Data was obtained from Ganis & Kievit (2015).
+                                         </li>
+                                    </ul>
+
+                                    <ul>
+                                        <li> Steps:</li>
+                                        <ol>
+                                            <li>Load and normalize the dataset in matrix format</li>
+                                            <li>Fit a line (linear regression) between reaction time (rt) and angle</li>
+
+                                             <li>Register the slope and the intercept from your line fit
+                                             Record the slope for this subject in place-holder variable "slopes"
+                                             Scatter plot reaction times (y-axis) against angles (x-axis)
+                                             </li>
+                                             <div className="inline photoGroup">
+                                                <img className="medium-photo" src="./img/cog260/ReactionTimePlots.png"/>
+                                            </div>
+
+                                            <li>Take the average of mean response times across subjects, for each angle</li>
+                                             <li>Take the standard deviation of mean response times across subjects, for each angle</li>
+                                             <li>Plot the average and standard deviation values calculated above, against the four angles</li>
+                                             <div className="inline photoGroup">
+                                                <img className="medium-photo" src="./img/cog260/ReactionTimeVsAngle.png"/>
+                                            </div>
+                                        </ol>
+                                    </ul>
+                                </div>
+
+                                <div id="posts" className="posts-expand">
+                                    <h3>
+                                        <a href="https://en.wikipedia.org/wiki/Statistical_classification" target="_blank">
+                                            Animal Classification
+                                        </a> 
+                                    </h3>
+
+                                    <ul>
+                                        <li> Steps:</li>
+                                        <ol>
+                                            <li>Load the animals from the Leuven Concept Database dataset in binary feature matrix (animal-by-feature).</li>
+                                            <div className="inline photoGroup">
+                                                <img className="large-photo" src="./img/cog260/AnimalDistance.png"/>
+                                            </div>
+                                            <li>Evaluate each model by standard leave-one-animal-out cross validation</li>
+                                            <li>Implement two models of categorization: a prototype model and an exemplar model</li>
+                                            <li>Calculate Euclidean distance of each bird/fish to the exemplar and prototype feature vector</li>
+                                            <li>Report predictive accuracy of each model in percentage (i.e. % correct predictions out of 53 animals)</li>
+                                            <li>Perform an error analysis on the two models (i.e. report which exemplars each model failed on)</li>
+                                            <div className="inline photoGroup">
+                                                <img className="large-photo" src="./img/cog260/ModelAccuracy.png"/>
+                                            </div>
+                                        </ol>
+                                    </ul>
+                                    
                                 </div>
                             </div>
                         </div>

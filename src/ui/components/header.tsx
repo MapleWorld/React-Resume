@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom'
 
 export default class Header extends React.Component < null > {
 
+    componentDidMount() {
+        document.title = "Ou's home";
+    }
+
     toggleNavigation() {
         let $siteNav = $('.site-nav');
         let ON_CLASS_NAME = 'site-nav-on';

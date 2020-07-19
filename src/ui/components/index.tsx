@@ -2,6 +2,7 @@ import * as React from 'react';
 import { BrowserRouter as Switch , Route, Link, NavLink } from "react-router-dom";
 import Header from '../containers/header';
 import About from '../containers/about';
+import Ads from '../containers/ads';
 import Skills from '../containers/skills';
 import Projects from '../containers/projects';
 import ProfileCard from '../containers/profileCard';
@@ -19,6 +20,7 @@ export default class Home extends React.Component < any > {
                     <div className="row main clearfix">
                         <Route exact path="/" component={HomePage} />
                         <Route exact path="/machineLearning" component={MachineLearningPage} />
+                        <Route exact path="/Ads" component={Ads} />
                     </div>
                 </div>
                 <Footer/>

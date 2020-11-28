@@ -32,7 +32,7 @@ export default class Header extends React.Component < null > {
                             <div className="custom-logo-site-title">
                                 <Link to="/" className="brand" rel="start">
                                     <span className="logo-line-before"><i></i></span>
-                                    <span className="site-title">Ou 的 One Piece</span>
+                                    <span className="site-title">Ou の One Piece</span>
                                     <span className="logo-line-after"><i></i></span>
                                 </Link>
                             </div>

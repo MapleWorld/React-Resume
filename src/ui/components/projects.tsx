@@ -61,6 +61,12 @@ export default class Projects extends React.Component < null > {
                                     <li> <a href="https://www.ouye.ca/threejs.html"> www.ouye.ca/threejs.html</a> Built using Three.js for fun </li>
                                     <li> <a href="http://www.ouye.photography"> www.ouye.photography</a> <strong> Photography Site (No money had to take it down)</strong></li>
                                 </ul>
+                                <p><strong>VR Tap App</strong> &nbsp;</p>
+                                <ul>
+                                    <li> A simple tap to create virtual reality developed just for fun over the weekend</li>
+                                    <li> https://photos.app.goo.gl/bED7WrYdBjP4GqVK9 </li>
+                                </ul>
+                                <br />
                             </div>
                         </li>
                     </ul>

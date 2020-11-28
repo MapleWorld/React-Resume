@@ -11,7 +11,7 @@ export default class WorkExperience extends React.Component < null > {
                     <ul className="list-unstyled">
                         <li className="card card-nested clearfix">
                             <div className="content has-sidebar-date">
-                                <p><strong>Software Engineer</strong>,&nbsp;Microsoft </p>
+                                <p><strong>Software Engineer II</strong>,&nbsp;Microsoft </p>
                                 <ul>
                                     <li>Part of the Windows Defender team, help developing and maintaining the large ecosystem 
                                         thats protects billions of users around the world

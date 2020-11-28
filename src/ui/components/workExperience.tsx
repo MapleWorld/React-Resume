@@ -13,10 +13,10 @@ export default class WorkExperience extends React.Component < null > {
                             <div className="content has-sidebar-date">
                                 <p><strong>Software Engineer II</strong>,&nbsp;Microsoft </p>
                                 <ul>
-                                    <li>Part of the Windows Defender team, help developing and maintaining the large ecosystem 
+                                    <li> Part of the Windows Defender team, help developing and maintaining the large ecosystem 
                                         thats protects billions of users around the world
                                     </li>
-                                    <li>Building scalable, cloud-based, machine-learned reputation systems using 
+                                    <li> Building scalable, cloud-based, machine-learned reputation systems using 
                                         Microsoft's proprietary machine learning language scripts (Cosmos) on security 
                                     </li>
                                     <li> Development and fine-tuning of Url, phishing, malware detection algorithm, as well as network protection data feed pipeline</li>

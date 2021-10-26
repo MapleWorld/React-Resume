@@ -65,12 +65,6 @@ export default class Header extends React.Component < null > {
                                         Resume PDF
                                     </a>
                                 </li>
-<!--                                 <li className="menu-item menu-item-books">
-                                    <a href="./threejs.html" rel="section">
-                                        <i className="menu-item-icon fa fa-fw fa-wpexplorer"></i> <br />
-                                        Threejs
-                                    </a>
-                                </li> -->
                                 <li className="menu-item menu-item-books">
                                     <Link to="/ads" rel="section">
                                         <i className="menu-item-icon fa fa-fw fa-money"></i> <br />

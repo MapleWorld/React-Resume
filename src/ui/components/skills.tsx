@@ -17,9 +17,9 @@ export default class Skills extends React.Component < null > {
                                     <strong>Languages</strong>
                                     <div className="space-top labels">
                                         <span className="label label-keyword">Java - Proficient</span>
-                                        <span className="label label-keyword">Python - Good</span>
+                                        <span className="label label-keyword">Python - Proficient</span>
                                         <span className="label label-keyword">C - Fluent</span>
-                                        <span className="label label-keyword">C# - Getting better day by day</span>
+                                        <span className="label label-keyword">C# - Good</span>
                                     </div>
                                 </div>
                             </li>
@@ -46,7 +46,7 @@ export default class Skills extends React.Component < null > {
                                     <strong>Database</strong>
                                     <div className="space-top labels">
                                         <span className="label label-keyword">SQL - Proficient</span>
-                                        <span className="label label-keyword">DB2 - Proficient</span>
+                                        <span className="label label-keyword">Hive - Proficient</span>
                                     </div>
                                 </div>
                             </li>
@@ -58,6 +58,8 @@ export default class Skills extends React.Component < null > {
                                     <strong>Other</strong>
                                     <div className="space-top labels">
                                         <span className="label label-keyword">Procrastination - Proficient</span>
+                                        <span className="label label-keyword">Protobuf </span>
+                                        <span className="label label-keyword">gRPC </span>
                                     </div>
                                 </div>
                             </li>

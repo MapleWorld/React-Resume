@@ -60,7 +60,7 @@ export default class Header extends React.Component < null > {
                                     </Link>
                                 </li>
                                 <li className="menu-item menu-item-books">
-                                    <a href="./resume_ou_ye_software_engineer.pdf" rel="section">
+                                    <a href="./resume_ou_ye_senior_software_engineer.pdf" rel="section">
                                         <i className="menu-item-icon fa fa-fw fa-user-circle"></i> <br />
                                         Resume PDF
                                     </a>

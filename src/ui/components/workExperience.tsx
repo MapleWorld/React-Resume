@@ -11,7 +11,28 @@ export default class WorkExperience extends React.Component < null > {
                     <ul className="list-unstyled">
                         <li className="card card-nested clearfix">
                             <div className="content has-sidebar-date">
-                                <p><strong>Software Engineer II</strong>,&nbsp;Microsoft </p>
+                                <p><strong>Software Engineer II - Anti-Abuse Team </strong>,&nbsp;Dropbox </p>
+                                <ul>
+                                    <li> Detect & prevent sharing of abusive & malicious content on Dropbox, and prevent & reduce account take over activity on Dropbox products </li>
+                                    <li> Build services to prevent malicious content from sharing, such as administration portal, restricted content service (50k QPS), 
+                                        abuse email processor, intake system, scanning pipeline and JUDO (Just-in-time User compromise Detection) system 
+                                        to detect potential compromised using Python
+                                    </li>
+                                    <li> Build services to detect and verify abnormal/non-human user activity, like bandwidth usage (50k QPS), and captcha using Python </li>
+
+                                </ul>
+                            </div>
+                            <div className="sidebar-date text-muted text-center">
+                                <p><strong>Joined:</strong>&nbsp;Feb 2021</p>
+                                <p><strong>Location:</strong>&nbsp;US, Seattle 🌧️ </p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <ul className="list-unstyled">
+                        <li className="card card-nested clearfix">
+                            <div className="content has-sidebar-date">
+                                <p><strong>Software Engineer II - Web Protection</strong>,&nbsp;Microsoft </p>
                                 <ul>
                                     <li> Part of the Windows Defender team, help developing and maintaining the large ecosystem 
                                         thats protects billions of users around the world
@@ -20,11 +41,11 @@ export default class WorkExperience extends React.Component < null > {
                                         Microsoft's proprietary machine learning language scripts (Cosmos) on security 
                                     </li>
                                     <li> Development and fine-tuning of Url, phishing, malware detection algorithm, as well as network protection data feed pipeline</li>
-                                    <li>Still learning</li>
                                 </ul>
                             </div>
                             <div className="sidebar-date text-muted text-center">
                                 <p><strong>Joined:</strong>&nbsp;August 2019</p>
+                                <p><strong>Left:</strong>&nbsp;Feb, 2021 </p>
                                 <p><strong>Location:</strong>&nbsp;US, Seattle 🌧️ </p>
                             </div>
                         </li>

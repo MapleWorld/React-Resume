@@ -44,8 +44,9 @@ export default function Skills() {
                             <div className="skill-info">
                                 <strong>Database</strong>
                                 <div className="space-top labels">
-                                    <span className="label label-keyword">SQL - Proficient</span>
+                                    <span className="label label-keyword">MySql - Proficient</span>
                                     <span className="label label-keyword">Hive - Proficient</span>
+                                    <span className="label label-keyword">Presto - Proficient</span>
                                 </div>
                             </div>
                         </li>

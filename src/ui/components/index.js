@@ -1,32 +1,35 @@
 import * as React from 'react';
-import { BrowserRouter as Switch , Route, Link, NavLink } from "react-router-dom";
-import Header from '../containers/header';
-import About from '../containers/about';
-import Ads from '../containers/ads';
-import Skills from '../containers/skills';
-import Projects from '../containers/projects';
-import ProfileCard from '../containers/profileCard';
-import WorkExperience from '../containers/workExperience';
-import Others from '../containers/others';
-import MachineLearning from '../containers/machineLearning';
-import Footer from '../containers/footer';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from '../components/header';
+import About from '../components/about';
+import Ads from '../components/ads';
+import Skills from '../components/skills';
+import Projects from '../components/projects';
+import ProfileCard from '../components/profileCard';
+import WorkExperience from '../components/workExperience';
+import Others from '../components/others';
+import MachineLearning from '../components/machineLearning';
+import Footer from '../components/footer';
 
-export default class Home extends React.Component < any > {
-    render() {
-        return (
+
+export default function Home() {
+    return (
+        <Router>
             <div className="fullPage">
                 <Header/>
                 <div className="container-fluid">
                     <div className="row main clearfix">
-                        <Route exact path="/" component={HomePage} />
-                        <Route exact path="/machineLearning" component={MachineLearningPage} />
-                        <Route exact path="/Ads" component={Ads} />
+                        <Routes>
+                            <Route path="/" element={<HomePage/>}/>
+                            <Route path="/machineLearning" element={<MachineLearningPage/>}/>
+                            <Route path="/Ads" element={<Ads/>}/>
+                        </Routes>
                     </div>
                 </div>
                 <Footer/>
             </div>
-        );
-    }
+        </Router>
+    );
 }
 
 function HomePage() {

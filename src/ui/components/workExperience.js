@@ -15,7 +15,7 @@ export default function WorkExperience() {
                                 <li> Detect & prevent sharing of abusive & malicious content on Dropbox, and prevent & reduce account take over activity on Dropbox products </li>
                                 <li> Build services to prevent malicious content from sharing, such as administration portal, restricted content service (50k QPS), 
                                     abuse email processor, intake system, scanning pipeline and JUDO (Just-in-time User compromise Detection) system 
-                                    to detect potential compromised password using Python
+                                    to detect potential compromised password using Python and React
                                 </li>
                                 <li> Build services to detect and verify abnormal/non-human user activity, like bandwidth usage (50k QPS), and captcha using Python </li>
 

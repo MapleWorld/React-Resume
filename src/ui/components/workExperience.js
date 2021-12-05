@@ -106,7 +106,7 @@ export default function WorkExperience() {
                 <ul className="list-unstyled">
                     <li className="card card-nested clearfix">
                         <div className="content has-sidebar-date">
-                            <p><strong>Software Engineer Intern</strong>,&nbsp;IBM </p>
+                            <p><strong>Software Engineer</strong>,&nbsp;IBM </p>
                             <ul>
                                 <li> Design and re-developed web servers using
                                     <ul>

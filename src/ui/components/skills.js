@@ -58,8 +58,9 @@ export default function Skills() {
                                 <strong>Other</strong>
                                 <div className="space-top labels">
                                     <span className="label label-keyword">Procrastination - Proficient</span>
-                                    <span className="label label-keyword">Protobuf </span>
-                                    <span className="label label-keyword">gRPC </span>
+                                    <span className="label label-keyword">Protobuf</span>
+                                    <span className="label label-keyword">AirFlow</span>
+                                    <span className="label label-keyword">gRPC</span>
                                 </div>
                             </div>
                         </li>

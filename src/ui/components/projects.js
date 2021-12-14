@@ -57,7 +57,6 @@ export default function Projects() {
                                         </li>
                                     </ul>
                                 </li>
-                                <li> <a href="https://www.ouye.ca/threejs.html"> www.ouye.ca/threejs.html</a> Built using Three.js for fun </li>
                                 <li> <a href="http://www.ouye.photography"> www.ouye.photography</a> <strong> Photography Site (No money had to take it down)</strong></li>
                             </ul>
                             <br />

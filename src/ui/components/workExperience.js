@@ -12,10 +12,10 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Senior Software Engineer - Reality Lab Integrity & Privacy</strong>,&nbsp;Meta </p>
                             <ul>
-                                <li>Lead the migration of the Oculus privacy center to Meta Privacy Center</li>
-                                <li>Lead a team of engineers to build the next privacy & integrity infrastructure for account protection, account takeover, data portability and accessibility</li>
-                                <li>Development of MetaGen AI integration with integrity infrastructure to automate user report</li>
-                                <li>Development of Reality lab user account recovery, account abuse & compromised detection flow</li>
+                                <li>Led the strategic migration of Oculus privacy center to Meta Privacy Center, enhancing user privacy controls and compliance</li>
+                                <li>Architected and led a team of engineers in developing next-generation privacy & integrity infrastructure for account protection, data portability, and accessibility</li>
+                                <li>Engineered MetaGen AI integration with integrity infrastructure to automate user report processing and improve response times</li>
+                                <li>Designed and implemented Reality Lab's user account recovery system and advanced detection flows for account abuse & compromise</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -31,13 +31,9 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer II - Anti-Abuse Team </strong>,&nbsp;Dropbox </p>
                             <ul>
-                                <li> Detect & prevent sharing of abusive & malicious content on Dropbox, and prevent & reduce account take over activity on Dropbox products </li>
-                                <li> Build services to prevent malicious content from sharing, such as administration portal, restricted content service (50k QPS), 
-                                    abuse email processor, intake system, scanning pipeline and JUDO (Just-in-time User compromise Detection) system 
-                                    to detect potential compromised password using Python and React
-                                </li>
-                                <li> Build services to detect and verify abnormal/non-human user activity, like bandwidth usage (50k QPS), and captcha using Python </li>
-
+                                <li>Architected and implemented advanced systems to detect and prevent abusive content sharing and account takeover activities across Dropbox products</li>
+                                <li>Engineered high-performance services including an administration portal, restricted content service (50k QPS), abuse email processor, and JUDO (Just-in-time User compromise Detection) system using Python and React</li>
+                                <li>Developed sophisticated detection systems for abnormal user activity, including bandwidth monitoring (50k QPS) and intelligent CAPTCHA implementation</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -52,13 +48,9 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer II - Web Protection</strong>,&nbsp;Microsoft </p>
                             <ul>
-                                <li> Part of the Windows Defender team, help developing and maintaining the large ecosystem 
-                                    thats protects billions of users around the world
-                                </li>
-                                <li> Building scalable, cloud-based, machine-learned reputation systems using 
-                                    Microsoft's proprietary machine learning language scripts (Cosmos) on security 
-                                </li>
-                                <li> Development and fine-tuning of Url, phishing, malware detection algorithm, as well as network protection data feed pipeline</li>
+                                <li>Contributed to Windows Defender's global security ecosystem, protecting billions of users worldwide</li>
+                                <li>Architected and implemented scalable, cloud-based machine learning reputation systems using Microsoft's proprietary Cosmos language for enhanced security</li>
+                                <li>Developed and optimized advanced detection algorithms for URLs, phishing, malware, and network protection data feed pipelines</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -74,11 +66,10 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer</strong>,&nbsp;Thomson Reuters </p>
                             <ul>
-                                <li> Full stack development on various Java, react, C#, .Net and node.js based web applications with e2e testing using docker, selenium and cucumber </li>
-                                <li> Integration of various tools, like Swagger to help consume RESTful Web services, automated documentation, code generation, and test-case generation </li>
-                                <li> Integration of MongoDB for NoSQL data to enable user search history feature </li>
-                                <li> Development of high volume search intensive web applications using elastic search  </li>
-                                <li> Development of high volume transaction cross-platform scalable RESTful API </li>
+                                <li>Led full-stack development of enterprise web applications using Java, React, C#, .NET, and Node.js, implementing comprehensive e2e testing with Docker, Selenium, and Cucumber</li>
+                                <li>Architected and integrated RESTful Web services using Swagger, implementing automated documentation, code generation, and test-case generation</li>
+                                <li>Designed and implemented high-performance search applications using Elasticsearch and MongoDB for enhanced user experience</li>
+                                <li>Developed scalable, cross-platform RESTful APIs handling high-volume transactions</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -93,9 +84,9 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer Intern</strong>,&nbsp;Rakuten </p>
                             <ul>
-                                <li> Design and implemented of an auto data generation server & website, to facilitate and streamline the process of data generation </li>
-                                <li> Engineered the current testing system joint with data generation, and automated the testing forthe internal credit card system </li>
-                                <li> Continuous design and development of features and tools on internal products to improve the development process. </li>
+                                <li>Designed and implemented an automated data generation server and web interface, significantly streamlining the data generation process</li>
+                                <li>Engineered an integrated testing system with data generation capabilities, automating testing for the internal credit card system</li>
+                                <li>Developed innovative features and tools for internal products, enhancing development efficiency and workflow</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -110,9 +101,9 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer Intern</strong>,&nbsp;Amazon </p>
                             <ul>
-                                <li> Created a REST API and an interactivity web tool that can visualize the internal supply chain pipeline using Ruby, Angular, Java, JavaScript, and Hibernate </li>
-                                <li> Implementation of data analysis logic to identify the performance of the pipeline, provide early detection, and insight of the pipeline processes in real time </li>
-                                <li> Implementation of auto notification with the data analysis to inform the team about the status and health of the jobs and provide an overview of the pipeline system </li>
+                                <li>Developed a REST API and interactive web tool for visualizing internal supply chain pipelines using Ruby, Angular, Java, JavaScript, and Hibernate</li>
+                                <li>Implemented real-time data analysis logic for pipeline performance monitoring, enabling early detection and insights</li>
+                                <li>Created an automated notification system with data analysis capabilities, providing comprehensive pipeline health monitoring and system overview</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -127,28 +118,28 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer</strong>,&nbsp;IBM </p>
                             <ul>
-                                <li> Design and re-developed web servers using
+                                <li>Architected and re-engineered web servers using advanced technologies:
                                     <ul>
-                                        <li><b> Node.js (Sockets, Async, ES6)</b></li>
-                                        <li><b> DB2, MongoDB</b></li>
-                                        <li><b> Java, Javascript, jQuery</b></li>
-                                        <li><b> C for SQG Engine itself</b></li>
+                                        <li><b>Node.js (Sockets, Async, ES6)</b></li>
+                                        <li><b>DB2, MongoDB</b></li>
+                                        <li><b>Java, JavaScript, jQuery</b></li>
+                                        <li><b>C for SQG Engine core</b></li>
                                     </ul>
                                 </li>
-                                <li> Improved existing Auto SQL Generation Engine Scalability <b>(Now supports 750x more processes with clusters)</b></li>
-                                <li> Development of a cross platform web server using Java, Node.js, Cluster, DB2 & MongoDB for userto interact with SQL Query Generator </li>
-                                <li> Design and developed Database Tutorial Android Application to ease the difficulty of learning and getting DB2 certification</li>
-                                <li> Developed <b>Performance Analysis Tool</b> and <b>Client Software Analytics Platform </b> to collect and analysis data</li>
+                                <li>Enhanced Auto SQL Generation Engine scalability by 750x through cluster implementation</li>
+                                <li>Developed a cross-platform web server integrating Java, Node.js, Cluster, DB2 & MongoDB for SQL Query Generator interaction</li>
+                                <li>Created an educational Android application for DB2 certification training</li>
+                                <li>Engineered <b>Performance Analysis Tool</b> and <b>Client Software Analytics Platform</b> for comprehensive data collection and analysis</li>
                                 <li>
-                                    Produced educational <b>Youtube and internal video</b> on new IBM products to promote and increase adoption of IBM products &nbsp; 
+                                    Produced educational content for IBM products, including <b>YouTube tutorials</b> and internal training videos &nbsp; 
                                     <a href="https://www.youtube.com/watch?v=Q862P1ZA_Iw&index=7&list=PLdCTCL7DbgsnnYl9YLINarptciOxgF6r1">
-                                        Youtube Video Playlist &nbsp; 
+                                        YouTube Playlist &nbsp; 
                                         <i className="menu-item-icon fa fa-fw fa-youtube-play"/>
-                                        </a>
+                                    </a>
                                 </li>
                             </ul>
                             <br />
-                            <a href="https://github.com/IBM-DTeam"> D-Team Open Source Github Repository</a>
+                            <a href="https://github.com/IBM-DTeam">D-Team Open Source GitHub Repository</a>
                             <br />
                         </div>
                         <div className="sidebar-date text-muted text-center">

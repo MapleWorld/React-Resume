@@ -343,3 +343,13 @@ body {
   z-index: 10;
   margin-bottom: 20px;
 }
+
+.contact-details .detail .info.clickable {
+    color: #357ebd;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.contact-details .detail .info.clickable:hover {
+    color: #2b5797;
+}

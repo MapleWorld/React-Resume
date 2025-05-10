@@ -1,6 +1,13 @@
 import * as React from 'react';
+import { useState } from 'react';
 
 export default function ProfileCard() {
+    const [showPhone, setShowPhone] = useState(false);
+    const phoneNumber = "(425) 410-9532";
+    const firstSixDigits = phoneNumber.slice(0, 6); // Get "(425) "
+    const lastFourDigits = phoneNumber.slice(-4);
+    const partiallyMaskedPhone = `${firstSixDigits}***-****`;
+
     return (
         <div className="card profile-card">  
             <div className="profile-pic">
@@ -26,7 +33,12 @@ export default function ProfileCard() {
                         <i className="fa fa-lg fa-phone"></i>
                     </span>
                     <span className="info">
-                        (425) 410-9532
+                        <span className="clickable" onClick={() => setShowPhone(!showPhone)} style={{ cursor: 'pointer' }}>
+                            {showPhone ? phoneNumber : partiallyMaskedPhone}
+                        </span>
+                        <span className="text-muted" style={{ fontSize: '0.7em', marginLeft: '5px' }}>
+                            (click to reveal)
+                        </span>
                     </span>
                 </div>
                 <div className="detail">

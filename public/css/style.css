@@ -290,3 +290,56 @@ body {
     box-sizing: border-box;
     padding: 10px;
 }
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+  .card {
+    padding: 5px;
+  }
+  .background-card {
+    padding: 5px 10px;
+  }
+  .card-wrapper {
+    padding: 2px;
+    width: 100%;
+    float: none;
+  }
+  .background-details .detail .icon {
+    min-width: 30px;
+    max-width: 30px;
+  }
+  .background-details .detail .info {
+    font-size: 0.9em;
+  }
+  .contact-details .detail .info {
+    font-size: 0.7em;
+  }
+  .skill-level {
+    width: 8px;
+  }
+  .label-keyword {
+    font-size: 0.8em;
+    padding: 3px;
+  }
+  .profile-card {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .row {
+    margin: 0;
+  }
+  .col-md-3, .col-md-9 {
+    padding: 0;
+  }
+  .main {
+    padding: 0;
+  }
+}
+
+.profile-card {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 20px;
+}

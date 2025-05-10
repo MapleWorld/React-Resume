@@ -10,6 +10,25 @@ export default function WorkExperience() {
                 <ul className="list-unstyled">
                     <li className="card card-nested clearfix">
                         <div className="content has-sidebar-date">
+                            <p><strong>Senior Software Engineer - Reality Lab Integrity & Privacy</strong>,&nbsp;Meta </p>
+                            <ul>
+                                <li>Lead the migration of the Oculus privacy center to Meta Privacy Center</li>
+                                <li>Lead a team of engineers to build the next privacy & integrity infrastructure for account protection, account takeover, data portability and accessibility</li>
+                                <li>Development of MetaGen AI integration with integrity infrastructure to automate user report</li>
+                                <li>Development of Reality lab user account recovery, account abuse & compromised detection flow</li>
+                            </ul>
+                        </div>
+                        <div className="sidebar-date text-muted text-center">
+                            <p><strong>Joined:</strong>&nbsp;Jul 2022</p>
+                            <p><strong>Present</strong></p>
+                            <p><strong>Location:</strong>&nbsp;US, Bellevue 🌲</p>
+                        </div>
+                    </li>
+                </ul>
+                
+                <ul className="list-unstyled">
+                    <li className="card card-nested clearfix">
+                        <div className="content has-sidebar-date">
                             <p><strong>Software Engineer II - Anti-Abuse Team </strong>,&nbsp;Dropbox </p>
                             <ul>
                                 <li> Detect & prevent sharing of abusive & malicious content on Dropbox, and prevent & reduce account take over activity on Dropbox products </li>
@@ -27,7 +46,7 @@ export default function WorkExperience() {
                         </div>
                     </li>
                 </ul>
-                
+
                 <ul className="list-unstyled">
                     <li className="card card-nested clearfix">
                         <div className="content has-sidebar-date">

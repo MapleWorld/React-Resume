@@ -345,11 +345,12 @@ body {
 }
 
 .contact-details .detail .info.clickable {
-    color: #357ebd;
+    color: #4a9eff;
     text-decoration: underline;
     transition: color 0.2s ease;
+    cursor: pointer;
 }
 
 .contact-details .detail .info.clickable:hover {
-    color: #2b5797;
+    color: #66b3ff;
 }

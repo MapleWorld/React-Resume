@@ -36,7 +36,7 @@ export default function ProfileCard() {
                         <span className="clickable" onClick={() => setShowPhone(!showPhone)} style={{ cursor: 'pointer' }}>
                             {showPhone ? phoneNumber : partiallyMaskedPhone}
                         </span>
-                        <span className="text-muted" style={{ fontSize: '0.7em', marginLeft: '5px' }}>
+                        <span className="clickable text-muted" onClick={() => setShowPhone(!showPhone)} style={{ fontSize: '0.7em', marginLeft: '5px', cursor: 'pointer' }}>
                             (click to reveal)
                         </span>
                     </span>

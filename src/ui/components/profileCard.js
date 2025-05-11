@@ -16,7 +16,7 @@ export default function ProfileCard() {
             </div>
 
             <h3 className="text-center text-bolder"> Ou Ye</h3>
-            <h5 className="text-muted text-center">Software Engineer</h5>
+            <h5 className="text-muted text-center">Senior Software Engineer</h5>
             <hr/>
             <div className="contact-details clearfix">
                 <div className="detail">

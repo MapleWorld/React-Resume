@@ -3,10 +3,17 @@ import { useState } from 'react';
 
 export default function ProfileCard() {
     const [showPhone, setShowPhone] = useState(false);
+    const [showEmail, setShowEmail] = useState(false);
     const phoneNumber = "(425) 410-9532";
     const firstSixDigits = phoneNumber.slice(0, 6); // Get "(425) "
     const lastFourDigits = phoneNumber.slice(-4);
     const partiallyMaskedPhone = `${firstSixDigits}***-****`;
+
+    const email = "ou.ye.canada@hotmail.com";
+    const emailParts = email.split('@');
+    const username = emailParts[0];
+    const domain = emailParts[1];
+    const maskedEmail = `${username.slice(0, 3)}***@${domain}`;
 
     return (
         <div className="card profile-card">  
@@ -46,7 +53,12 @@ export default function ProfileCard() {
                         <i className="fa fa-lg fa-envelope"></i>
                     </span>
                     <span className="info">
-                        ou.ye.canada@hotmail.com
+                        <span className="clickable" onClick={() => setShowEmail(!showEmail)} style={{ cursor: 'pointer' }}>
+                            {showEmail ? email : maskedEmail}
+                        </span>
+                        <span className="clickable text-muted" onClick={() => setShowEmail(!showEmail)} style={{ fontSize: '0.7em', marginLeft: '5px', cursor: 'pointer' }}>
+                            (click to reveal)
+                        </span>
                     </span>
                 </div>
                 <div className="detail">

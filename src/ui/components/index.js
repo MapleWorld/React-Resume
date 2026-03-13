@@ -34,11 +34,11 @@ export default function Home() {
 
 function HomePage() {
     return (
-        <div>
-            <section className="col-md-2 card-wrapper affix">
+        <div className="row">
+            <section className="col-md-3 col-lg-2 card-wrapper">
                 <ProfileCard/>
             </section>
-            <section className="col-md-10 card-wrapper pull-right">
+            <section className="col-md-9 col-lg-10 card-wrapper">
                 <div className="card background-card">
                     <div className="background-details">
                         <About/>

@@ -1,6 +1,20 @@
 import * as React from 'react';
+import { useState } from 'react';
 
 export default function ProfileCard() {
+    const [showPhone, setShowPhone] = useState(false);
+    const [showEmail, setShowEmail] = useState(false);
+    const phoneNumber = "(425) 410-9532";
+    const firstSixDigits = phoneNumber.slice(0, 6); // Get "(425) "
+    const lastFourDigits = phoneNumber.slice(-4);
+    const partiallyMaskedPhone = `${firstSixDigits}***-****`;
+
+    const email = "ou.ye.canada@hotmail.com";
+    const emailParts = email.split('@');
+    const username = emailParts[0];
+    const domain = emailParts[1];
+    const maskedEmail = `${username.slice(0, 3)}***@${domain}`;
+
     return (
         <div className="card profile-card">  
             <div className="profile-pic">
@@ -9,7 +23,7 @@ export default function ProfileCard() {
             </div>
 
             <h3 className="text-center text-bolder"> Ou Ye</h3>
-            <h5 className="text-muted text-center">Software Engineer</h5>
+            <h5 className="text-muted text-center">Senior Software Engineer</h5>
             <hr/>
             <div className="contact-details clearfix">
                 <div className="detail">
@@ -26,7 +40,12 @@ export default function ProfileCard() {
                         <i className="fa fa-lg fa-phone"></i>
                     </span>
                     <span className="info">
-                        (425) 410-9532
+                        <span className="clickable" onClick={() => setShowPhone(!showPhone)} style={{ cursor: 'pointer' }}>
+                            {showPhone ? phoneNumber : partiallyMaskedPhone}
+                        </span>
+                        <span className="clickable text-muted" onClick={() => setShowPhone(!showPhone)} style={{ fontSize: '0.7em', marginLeft: '5px', cursor: 'pointer' }}>
+                            (click to reveal)
+                        </span>
                     </span>
                 </div>
                 <div className="detail">
@@ -34,7 +53,12 @@ export default function ProfileCard() {
                         <i className="fa fa-lg fa-envelope"></i>
                     </span>
                     <span className="info">
-                        ou.ye.canada@hotmail.com
+                        <span className="clickable" onClick={() => setShowEmail(!showEmail)} style={{ cursor: 'pointer' }}>
+                            {showEmail ? email : maskedEmail}
+                        </span>
+                        <span className="clickable text-muted" onClick={() => setShowEmail(!showEmail)} style={{ fontSize: '0.7em', marginLeft: '5px', cursor: 'pointer' }}>
+                            (click to reveal)
+                        </span>
                     </span>
                 </div>
                 <div className="detail">

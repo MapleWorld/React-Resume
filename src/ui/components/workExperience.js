@@ -17,7 +17,7 @@ export default function WorkExperience() {
                                 <li>Led and designed end-to-end account recovery and authentication flows across the Meta family of apps</li>
                                 <li>Guided a team in developing infrastructure for advanced threat detection to mitigate account abuse and compromise</li>
                                 <li>Expanded ML-driven protection coverage across platform, including SMS verification and mobile rate limiting for Meta AI and Horizon</li>
-                                <li>Mentored and cultivated engineering talent, successfully guiding multiple team members through career progressions from Intern, SDE I, and SDE II up to Senior Software Engineer</li>
+                                <li>Mentored and cultivated engineering talent, successfully guiding multiple team members through various levels (Intern, SDE I, SDE II) to Senior Software Engineer</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">

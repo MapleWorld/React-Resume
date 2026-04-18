@@ -12,10 +12,12 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Senior Software Engineer - Reality Lab Integrity & Privacy</strong>,&nbsp;Meta </p>
                             <ul>
-                                <li>Led the strategic migration of Oculus privacy center to Meta Privacy Center, enhancing user privacy controls and compliance</li>
-                                <li>Architected and led a team of engineers in developing next-generation privacy & integrity infrastructure for account protection, data portability, and accessibility</li>
-                                <li>Engineered MetaGen AI integration with integrity infrastructure to automate user report processing and improve response times</li>
-                                <li>Designed and implemented Reality Lab's user account recovery system and advanced detection flows for account abuse & compromise</li>
+                                <li>Led the Oculus Privacy Center migration into the unified Meta Accounts Center</li>
+                                <li>Led a team and architected next-generation privacy infrastructure for data portability, account deletion, and deactivation to ensure legal compliance</li>
+                                <li>Led and designed end-to-end account recovery and authentication flows across the Meta family of apps</li>
+                                <li>Guided a team in developing infrastructure for advanced threat detection to mitigate account abuse and compromise</li>
+                                <li>Expanded ML-driven protection coverage across platform, including SMS verification and mobile rate limiting for Meta AI and Horizon</li>
+                                <li>Mentored and cultivated engineering talent, successfully guiding multiple team members through various levels (Intern, SDE I, SDE II) to Senior Software Engineer</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">

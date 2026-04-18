@@ -15,7 +15,8 @@ export default function WorkExperience() {
                                 <li>Led the Oculus Privacy Center migration into the unified Meta Accounts Center</li>
                                 <li>Led a team and architected next-generation privacy infrastructure for data portability, account deletion, and deactivation to ensure legal compliance</li>
                                 <li>Led and designed end-to-end account recovery and authentication flows across the Meta family of apps</li>
-                                <li>Guided a team in developing infrastructure for advanced threat detection to mitigate account abuse and compromise, and expanded ML-driven protection coverage across platform, including SMS verification and mobile rate limiting for Meta AI and Horizon</li>
+                                <li>Guided a team in developing infrastructure for advanced threat detection to mitigate account abuse and compromise</li>
+                                <li>Expanded ML-driven protection coverage across platform, including SMS verification and mobile rate limiting for Meta AI and Horizon</li>
                                 <li>Mentored and cultivated engineering talent, successfully guiding multiple team members through career progressions from Intern, SDE I, and SDE II up to Senior Software Engineer</li>
                             </ul>
                         </div>

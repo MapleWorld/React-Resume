@@ -57,18 +57,9 @@ export default function About() {
                         <ul className="list-unstyled">
                             <li className="card card-nested">
                                 <div className="space-top labels">
-                                    <span className="label label-keyword">Piano</span>
-                                    <span className="label label-keyword">Guitar</span>
-                                    <span className="label label-keyword">Violin</span>
-                                    <span className="label label-keyword">Travel</span>
-                                    <span className="label label-keyword">Wildlife Photography</span>
-                                    <span className="label label-keyword">Landscape Photography</span>
-                                    <span className="label label-keyword">Astronomy</span>
-                                    <span className="label label-keyword">Cycling</span>
-                                    <span className="label label-keyword">Camping</span>
-                                    <span className="label label-keyword">Skydiving</span>
-                                    <span className="label label-keyword">Scuba Diving</span>
-                                    <span className="label label-keyword">Dog Training</span>
+                                    <span className="label label-keyword">AI Safety & Alignment Research</span>
+                                    <span className="label label-keyword">Adversarial ML & Red-teaming</span>
+                                    <span className="label label-keyword">Open-source Security Tooling</span>
                                 </div>
                             </li>
                         </ul>

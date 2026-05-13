@@ -12,12 +12,12 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Senior Software Engineer - Reality Lab Integrity & Privacy</strong>,&nbsp;Meta </p>
                             <ul>
-                                <li>Led the Oculus Privacy Center migration into the unified Meta Accounts Center</li>
-                                <li>Led a team and architected next-generation privacy infrastructure for data portability, account deletion, and deactivation to ensure legal compliance</li>
-                                <li>Led and designed end-to-end account recovery and authentication flows across the Meta family of apps</li>
-                                <li>Guided a team in developing infrastructure for advanced threat detection to mitigate account abuse and compromise</li>
-                                <li>Expanded ML-driven protection coverage across platform, including SMS verification and mobile rate limiting for Meta AI and Horizon</li>
-                                <li>Mentored and cultivated engineering talent, successfully guiding multiple team members through various levels (Intern, SDE I, SDE II) to Senior Software Engineer</li>
+                                <li>Expanded ML-driven protection coverage across Meta AI and Horizon — built threat detection infrastructure for SMS verification abuse and mobile rate limiting, surfacing abuse signals to model and platform teams to harden defenses at the training stage.</li>
+                                <li>Guided a team in architecting advanced threat detection infrastructure to identify and mitigate account abuse and compromise across the Meta family of apps.</li>
+                                <li>Led end-to-end design of account recovery and authentication flows across Meta's family of apps, coordinating cross-functional enforcement actions and automated interventions.</li>
+                                <li>Architected privacy infrastructure for data portability, account deletion, and deactivation — data residency controls and compliance-constrained architectures ensuring regional data boundaries — to meet legal compliance requirements.</li>
+                                <li>Designed and led AI-driven projects leveraging MetaGen (LLM-based chatbot), including prompt engineering for support automation, adversarial input testing to surface edge cases and misuse patterns, and privacy transparency improvements across Reality Labs platforms.</li>
+                                <li>Mentored engineers through career progression from Intern and SDE I/II to Senior Software Engineer.</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -33,9 +33,10 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer II - Anti-Abuse Team </strong>,&nbsp;Dropbox </p>
                             <ul>
-                                <li>Architected and implemented advanced systems to detect and prevent abusive content sharing and account takeover activities across Dropbox products</li>
-                                <li>Engineered high-performance services including an administration portal, restricted content service (50k QPS), abuse email processor, and JUDO (Just-in-time User compromise Detection) system using Python and React</li>
-                                <li>Developed sophisticated detection systems for abnormal user activity, including bandwidth monitoring (50k QPS) and intelligent CAPTCHA implementation</li>
+                                <li>Built analyst-facing internal tooling — including an administration portal, abuse email processor, and validation service — enabling the trust & safety operations team to review and enforce against flagged content in real time.</li>
+                                <li>Designed and built a restricted content service handling 50k QPS, a multi-stage malicious scanning pipeline, and telemetry and alerting infrastructure giving the trust & safety operations team real-time situational awareness over platform traffic.</li>
+                                <li>Designed and built a compromise detection system for login and sign-up flows, extending coverage in collaboration with the acquisitions team.</li>
+                                <li>Architected and led development of a cryptocurrency abuse scanner and malware scanning pipeline to prevent storage abuse across Dropbox products.</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">
@@ -50,9 +51,10 @@ export default function WorkExperience() {
                         <div className="content has-sidebar-date">
                             <p><strong>Software Engineer II - Web Protection</strong>,&nbsp;Microsoft </p>
                             <ul>
-                                <li>Contributed to Windows Defender's global security ecosystem, protecting billions of users worldwide</li>
-                                <li>Architected and implemented scalable, cloud-based machine learning reputation systems using Microsoft's proprietary Cosmos language for enhanced security</li>
-                                <li>Developed and optimized advanced detection algorithms for URLs, phishing, malware, and network protection data feed pipelines</li>
+                                <li>Designed and developed the Network Protection feature, deployed across 500M machines and blocking malicious URIs at ~6M API calls per day.</li>
+                                <li>Built a multi-process web crawler and detonation service for URL threat analysis using Puppeteer.</li>
+                                <li>Led cross-team optimization of the back-end job pipeline for Windows Defender and Microsoft Edge, saving $2M annually for the org and $300K within the team.</li>
+                                <li>Developed delta compression, reducing bandwidth consumption by ~1TB daily.</li>
                             </ul>
                         </div>
                         <div className="sidebar-date text-muted text-center">

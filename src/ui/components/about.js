@@ -7,21 +7,15 @@ export default function About() {
             <div className="info">
                 <h4 className="title text-uppercase">About</h4>
                 <div className="content">
-                    <p>Computer Science graduate from the University of Toronto with a passion for innovative technology solutions and continuous learning. 🖥️</p>
+                    <p>I have 9 years of experience designing, leading and developing scalable system.</p>
                     <p>
-                        A technology enthusiast with a proven track record of rapidly adapting to new technologies and frameworks. 
-                        Experienced in full-stack development across mobile, web, and hardware platforms, with a focus on creating scalable, 
-                        high-performance applications.
+                        Our team at Meta is at the forefront of developing robust integrity and privacy infrastructure, 
+                        where I lead initiatives to integrate MetaGen AI, building the next generation of infra for account protection 
+                        and recovery flow for Reality Lab, and expanding the coverage to web, mobile, and VR.
                     </p>
                     <p>
-                        Known for quick learning abilities and problem-solving skills, I thrive in challenging environments where 
-                        innovation meets technical excellence. My approach combines technical expertise with a growth mindset, 
-                        consistently delivering solutions that exceed expectations.
+                        My journey in computer science began at the University of Toronto, cultivating a foundation that now empowers me to innovate within Meta's Reality Lab Integrity & Security team.
                     </p>
-                </div>
-                <div>
-                    Specialized in open source development, big data analytics, and full-stack application development, 
-                    with a particular focus on creating impactful solutions that drive business value.
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@ export default function WorkExperience() {
                 <ul className="list-unstyled">
                     <li className="card card-nested clearfix">
                         <div className="content has-sidebar-date">
-                            <p><strong>Senior Software Engineer - Reality Lab Integrity & Privacy</strong>,&nbsp;Meta </p>
+                            <p><strong>Staff Software Engineer - Reality Lab Integrity & Privacy</strong>,&nbsp;Meta </p>
                             <ul>
                                 <li>Expanded ML-driven protection coverage across Meta AI and Horizon — built threat detection infrastructure for SMS verification abuse and mobile rate limiting, surfacing abuse signals to model and platform teams to harden defenses at the training stage.</li>
                                 <li>Guided a team in architecting advanced threat detection infrastructure to identify and mitigate account abuse and compromise across the Meta family of apps.</li>
